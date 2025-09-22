@@ -1,7 +1,15 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
-st.title("Teoría de conjuntos, relaciones y funciones")
+st.title("PA03")
+st.subheader("Teoría de conjuntos, relaciones y funciones")
+
+st.markdown("""
+**Integrantes del grupo:**
+- Juan Pérez  
+- María López  
+- Carlos Ramírez  
+""")
 
 # Caso práctico 01
 st.header("Caso práctico 01 - Conjuntos")
@@ -60,3 +68,4 @@ elif opcion2 == "Gráfica":
     ax.plot(x_vals, y_vals, marker="o")
     ax.set_title("f(x) = x^2 + 2")
     st.pyplot(fig)
+
