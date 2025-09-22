@@ -6,9 +6,8 @@ st.subheader("Teoría de conjuntos, relaciones y funciones")
 
 st.markdown("""
 **Integrantes del grupo:**
-- Juan Pérez  
-- María López  
-- Carlos Ramírez  
+- Cruz Iguavel, Erick Rolando
+
 """)
 
 # Caso práctico 01
@@ -68,4 +67,5 @@ elif opcion2 == "Gráfica":
     ax.plot(x_vals, y_vals, marker="o")
     ax.set_title("f(x) = x^2 + 2")
     st.pyplot(fig)
+
 
